@@ -1,0 +1,42 @@
+.board-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.board-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.board-table th, .board-table td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.board-table th{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-color: #007bff;
+}
