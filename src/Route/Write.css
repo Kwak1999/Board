@@ -1,0 +1,35 @@
+.post{
+    width:auto;
+    height:auto;
+}
+
+.post label{
+    vertical-align: top;
+}
+
+.post .submit{
+    background-color: #007bff;
+    color : #f4f4f4;
+    font-size: 15px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin-left: 547px;
+}
+
+.post .board-title{
+    height: 30px;
+    width: 300px;
+
+}
+
+.post .board-title-input{
+    height: 30px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.post .board-content-input{
+    height: 400px;
+    width: 500px;
+}

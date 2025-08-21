@@ -1,5 +1,6 @@
 import React from "react";
 import './BoardList.css'
+import {Link} from "react-router-dom";
 
 const BoardList = () => {
 
@@ -77,6 +78,13 @@ const BoardList = () => {
                         {i + 1}
                     </button>
                 ))}
+            </div>
+
+        {/*    글쓰기 버튼   */}
+            <div className="Write">
+                <Link to="/write">
+                    <button>글쓰기</button>
+                </Link>
             </div>
         </div>
     );
